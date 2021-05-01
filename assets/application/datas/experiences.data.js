@@ -1,8 +1,5 @@
 var exp = {
-    types: {
-        distribution: "Distribution alimentaire",
-        developpement: "Développement informatique" 
-    },
+    
     experiences: [
         {
             type: 'distribution',
