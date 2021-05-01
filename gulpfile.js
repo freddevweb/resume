@@ -1,17 +1,22 @@
 var gulp = require('gulp'),
-    concat = require('gulp-concat'),
+    ts = require('gulp-typescript'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
     livereload = require('gulp-livereload');
+const { SourceMap } = require('node:module');
 
 
 gulp.task('sass', function() {
-    
+    return gulp.src('./assets/sass/**/*.scss')
+        .pipe(sourcemaps.inig())
+        .pipe(sass().on('error', sass.logError))
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('./public/css'))
+        .pipe(livereload());
 });
 
-
 gulp.task('ts', function () {
-    return gulp.src('TS/**/*.ts')
+    return gulp.src('./assets/app/**/*.ts')
         .pipe(sourcemaps.init())
         .pipe(ts({
             noImplicitAny: true,
