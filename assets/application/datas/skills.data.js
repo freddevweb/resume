@@ -224,7 +224,7 @@ var comps = [{
         "type": "security",
         "name": "oauth",
         "tags": ["backend", "frontend", "JavaScript", "TypeScript", "mobile", "php", "go"],
-        "logo": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Oauth_logo.svg/320px-Oauth_logo.svg.png",
         "proportion": "",
         "link": ""
     },
@@ -232,7 +232,15 @@ var comps = [{
         "type": "tool",
         "name": "gulp",
         "tags": ["frontend", "JavaScript", "tool"],
-        "logo": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg",
+        "proportion": "",
+        "link": ""
+    },
+    {
+        "type": "tool",
+        "name": "grunt",
+        "tags": ["frontend", "JavaScript", "tool"],
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/a/ab/Grunt-logo.pngs",
         "proportion": "",
         "link": ""
     },
@@ -240,7 +248,7 @@ var comps = [{
         "type": "tool",
         "name": "babel",
         "tags": ["frontend", "JavaScript", "tool"],
-        "logo": "",
+        "logo": "https://en.wikipedia.org/wiki/File:Babel_Logo.svg",
         "proportion": "",
         "link": ""
     },
