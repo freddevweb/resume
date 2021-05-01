@@ -1,5 +1,5 @@
 var form = {
-    type = ["developpeur", "distribution", "informatique"],
+    type: ["developpeur", "distribution", "informatique"],
     forms: [
         {
             type : "developpeur",
