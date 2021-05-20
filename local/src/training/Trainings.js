@@ -3,16 +3,22 @@ class Trainings {
         this.trainings = [];
         this.domTrainings = domTrainings;
         this.build(trainings.trainings);
+        this.buildAndDisplayParams(trainings.params);
     }
     
     build(data) {
-
-        data.forEach(training => {
-            this.trainings.push(new Training(training.title, training.dates, training.content, training.school, training.type))
+        const trainingsDom = this.domTrainings.querySelector('.content');
+        data.forEach(elt => {
+            
+            const training = new Training(elt.title, elt.dates, elt.content, elt.school, elt.type);
+            const trainingTemplate = training.buildTemplate();
+            trainingsDom.appendChild(trainingTemplate);
         });
-        console.log(this.trainings);
-        console.log(this.domTrainings);
-        console.log(data);
+  
+        
+        // console.log(this.trainings);
+        // console.log(this.domTrainings);
+        // console.log(data);
         
     }
 
@@ -20,12 +26,8 @@ class Trainings {
         console.log(type);
     }
 
-    display() {
-
-    }
-
     buildAndDisplayParams(params) {
-
+        // console.log(params);
     }
 
 

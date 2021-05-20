@@ -9,7 +9,7 @@
                 "end": 2018
             },
             "content": "PHP, mySQL",
-            "certificatePath" : ""
+            "logo": "idem.png"
         },
         {
             "type" : "developpeur",
@@ -20,7 +20,7 @@
                 "end": 2017
             },
             "content": "PHP, mySQL",
-            "certificatePath" : ""
+            "logo": "openclassrooms.jpg"
         },
         {
             "type" : "developpeur",
@@ -30,7 +30,8 @@
                 "start": 2017,
                 "end": 2017
             },
-            "content": "Intégrateur web, UML, JavaScript (orienté objet), JQuery, API."
+            "content": "Intégrateur web, UML, JavaScript (orienté objet), JQuery, API.",
+            "logo": "openclassrooms.jpg"
         },
         {
             "type" : "developpeur",
@@ -40,7 +41,8 @@
                 "start": 2016,
                 "end": 2016
             },
-            "content": "HTML/CSS, Bootstrap, GIT, Wordpress, intégrer une maquette"
+            "content": "HTML/CSS, Bootstrap, GIT, Wordpress, intégrer une maquette",
+            "logo": "openclassrooms.jpg"
         },
         {
             "type" : "distribution",
@@ -50,17 +52,19 @@
                 "start": 2004,
                 "end": 2004
             },
-            "content": "Responsable fichier : responsable de l'outil de gestion commerciale (ERP) de l'enseigne (politique tarifaire, création articles et fournisseurs, gestion de stock...), logiciel d'affiches.<br/>Responsable caisse : gestion des plannings, comptage des caisses et du coffre et petite comptabilité."
+            "content": "Responsable fichier : responsable de l'outil de gestion commerciale (ERP) de l'enseigne (politique tarifaire, création articles et fournisseurs, gestion de stock...), logiciel d'affiches.<br/>Responsable caisse : gestion des plannings, comptage des caisses et du coffre et petite comptabilité.",
+            "logo": "mousquetaires.png"
         },
         {
             "type" : "informatique",
-            "title": "Gestionnaire fichier<br />Responsable  caisse",
+            "title": "Maintenance informatique et réseaux",
             "school": "GRETA PERPIGNAN",
             "dates": {
                 "start": 2003,
                 "end": 2003
             },
-            "content": "Maintenance matérielle et logicielle d'ordinateurs. Création, cablage et installation logicielle réseau"
+            "content": "Maintenance matérielle et logicielle d'ordinateurs. Création, cablage et installation logicielle réseaux.",
+            "logo": "greta.png"
         }
     ]
 }

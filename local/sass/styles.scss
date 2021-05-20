@@ -1,5 +1,35 @@
+
+
+
 body {
     background-color: grey;
+
+    #presentation {
+        min-height: 100vh;
+        padding-top: calc(100vh /3);
+                
+        
+        #photo {
+            
+            display: flex;
+            justify-content: center;
+            img {
+                width: 200px;
+                height: auto;
+                border-radius: 50%;
+            }
+        }
+
+        #name {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        #about {
+            
+        }
+
+    }
 
     .skills {
 

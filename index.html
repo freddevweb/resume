@@ -4,26 +4,68 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>MAS Frédéric</title>
+    <link rel="icon" href="public/img/utils/resume-icons.ico" />
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href='public/css/styles.css'>
 </head>
 
 <body>
-    <h1>hello</h1>
-    <div id="skills">
-        <div class="tags"></div>
-        <div class="content"></div>
-    </div>
-    <div id="experiences">
-        <div class="tags"></div>
-        <div class="content"></div>
-    </div>
-    <div id="trainings">
-        <div class="tags"></div>
-        <div class="content"></div>
-    </div>
+    <main class="container-fluid">
+        <div id="presentation" class="container">
+            <div id="photo" class=" row"></div>
+            <div id="name" class="row"></div>
+            <div class="row">
+                <div id="about"></div>
+            </div>
+            <div class="row">
+                <div id="links"></div>
+            </div>
+        </div>
 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col menu">
+                    <div class="secondPresentation">
+                        <div id="name"></div>
+                        <div id="address"></div>
+                        <div class="row">
+                            <span id="postalCode"></span>
+                            <span id="city"></span>
+                        </div>
+                        <div id="age"></div>
+                        <div id="about"></div>
+                    </div>
+                    <div class="menu">
+
+                    </div>
+                </div>
+                <div id="links" class="row"></div>
+            </div>
+            <div class="col content">
+                <div id="skills">
+                    <div class="tags"></div>
+                    <div class="content"></div>
+                </div>
+                <div id="experiences">
+                    <div class="tags"></div>
+                    <div class="content"></div>
+                </div>
+                <div id="trainings">
+                    <div class="tags"></div>
+                    <div class="content"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
     <script id="jsonData" type="application/json" src="public/js/json/db.json"></script>
     <script src="public/js/main.js"></script>
 

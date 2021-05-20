@@ -13,6 +13,7 @@ var files = {
     },
     js: {
         sources: [
+            './local/src/presentation/Presentation.js',
             './local/src/experience/Experience.js',
             './local/src/experience/Experiences.js',
             './local/src/skill/Skill.js',
@@ -76,8 +77,8 @@ gulp.task("watch", function () {
     livereload.listen(
         // { port: 35733}
     );
-    gulp.watch("local/src/**/*.js", gulp.series("js"));
-    // gulp.watch('./local/sass/**/*.scss', gulp.series("sass"));
+    gulp.watch(files.js.sources, gulp.series("js"));
+    gulp.watch('./local/sass/**/*.scss', gulp.series("sass"));
     gulp.watch(files.json.sources, gulp.series("json"));
     gulp.watch(files.html.sources, gulp.series("html"));
 });

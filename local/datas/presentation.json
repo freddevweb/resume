@@ -1,0 +1,16 @@
+{
+    "firstname": "MAS",
+    "lastname": "Frédéric",
+    "photoPath": "public/img/profile/fred.jpg",
+    "birthDay": "1980-03-22",
+    "birthPlace": "Perpignan",
+    "address": "5 rue des Epicéas",
+    "postalCode": "66270",
+    "city": "Le Soler",
+    "links": {
+        "linkedin": "https://fr.linkedin.com/in/fredericmas66",
+        "github": "https://github.com/freddevweb",
+        "gitlab": ""
+    },
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur mauris vel sem tincidunt, sit amet convallis erat faucibus. Aenean consectetur enim sed dolor eleifend, nec blandit dui porta. Vestibulum eget lacus lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse ac ex ut quam luctus pellentesque ac eget turpis. In eu tellus rhoncus, eleifend lacus vitae, suscipit tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Vivamus vitae metus mollis, maximus tellus ac, mattis justo. Nam eu libero commodo, varius urna sit amet, cursus leo. Vivamus interdum elit eu turpis lobortis tincidunt. Integer at lacus ac turpis varius finibus lacinia ac nunc. In pharetra, mauris euismod suscipit tincidunt, dolor libero bibendum turpis, vel pharetra leo mauris sed lacus. Pellentesque vel orci urna. Etiam euismod vestibulum nisl eu mollis. Morbi eget ultrices justo, ac scelerisque urna. Vestibulum purus nunc, iaculis sed mi ac, facilisis fringilla nunc. Vivamus mi mi, tempor ac leo vel, ornare ullamcorper erat. Quisque aliquet et ligula vel ullamcorper. Nulla in sem eget metus pharetra suscipit."
+}

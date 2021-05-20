@@ -3,633 +3,553 @@
             "type": "server",
             "name": "centos",
             "tags": ["server"],
-            "logo": "https://www.centos.org/assets/img/centos-logo-white.png",
-            "proportion": 30,
-            "link": "https://www.centos.org"
+            "logo": "centos.png",
+            "describe": "CentOS est une distribution GNU/Linux destinée aux serveurs.",
+            "proportion": 30
         },
         {
             "type": "server",
             "name": "debian",
             "tags": ["server"],
-            "logo": "https://www.debian.org/",
-            "proportion": 50,
-            "link": "https://www.debian.org/Pics/debian-logo-1024x576.png"
+            "logo": "debian.jpg",
+            "describe": "Debian est un système d’exploitation Linux composée exclusivement de logiciels libres, développé par le Debian Project.",
+            "proportion": 60
         },
         {
             "type": "server",
             "name": "docker",
             "tags": ["vm"],
-            "logo": "https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png",
-            "proportion": "40",
-            "link": ""
+            "logo": "docker.png",
+            "describe": "Docker est un logiciel libre permettant de lancer des applications dans des conteneurs logiciels.",
+            "proportion": 40
         },
         {
             "type": "reverse_proxy",
             "name": "traefik",
             "tags": ["reverse_proxy", "router"],
-            "logo": "https://cdn2.hubspot.net/hub/5814022/hubfs/gopher.png?width=108&height=108",
-            "proportion": "30",
-            "link": ""
+            "logo": "traefik.png",
+            "describe": "Traefik est un routeur Edge open source.",
+            "proportion": 30
         },
         {
             "type": "server",
             "name": "wamp",
             "tags": ["server", "tool"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f8/WampServer-logo.png",
-            "proportion": "80",
-            "link": ""
+            "logo": "wamp.jpg",
+            "describe": "WampServer est une plateforme de développement Web de type WAMP, permettant de faire fonctionner localement des scripts PHP.",
+            "proportion": 80
         },
         {
             "type": "server",
-            "name": "xampp",
-            "tags": ["server", "tool"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Xampp_logo.svg/langfr-330px-Xampp_logo.svg.png",
-            "proportion": "80",
-            "link": ""
-        },
-        {
-            "type": "",
             "name": "NodeJs",
             "tags": ["server", "language"],
-            "logo": "https://nodejs.org/static/images/logo.svg",
-            "proportion": "50",
-            "link": ""
+            "logo": "nodejs.png",
+            "describe": "Node.js est une plateforme logicielle libre en JavaScript, orientée vers les applications réseau événementielles hautement concurrentes qui doivent pouvoir monter en charge.",
+            "proportion": 50
         },
         {
             "type": "language",
-            "name": "go",
+            "name": "golang",
             "tags": ["language", "backend"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Go_Logo_Aqua.svg/1024px-Go_Logo_Aqua.svg.png",
-            "proportion": "20",
-            "link": ""
+            "logo": "golang.jpeg",
+            "describe": "Go est un langage de programmation compilé et concurrent inspiré de C et Pascal. Ce langage a été développé par Google.",
+            "proportion": 20
+        },
+        {
+            "type": "framework",
+            "name": "gin-gonic",
+            "tags": ["framework", "backend"],
+            "logo": "gin.png",
+            "describe": "Gin est un framework Web HTTP écrit en Go (Golang). Il dispose d'une API de type Martini avec de bien meilleures performances.",
+            "proportion": 20
         },
         {
             "type": "language",
             "name": "css",
             "tags": ["language", "style", "frontend"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/langfr-260px-CSS3_logo_and_wordmark.svg.png",
-            "proportion": "95",
-            "link": ""
+            "logo": "css.jpg",
+            "describe": "Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium.",
+            "proportion": 95
         },
         {
             "type": "language",
             "name": "html",
             "tags": ["language", "frontend"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/langfr-260px-HTML5_logo_and_wordmark.svg.png",
-            "proportion": "95",
-            "link": ""
+            "logo": "html.png",
+            "describe": "Le HyperText Markup Language, généralement abrégé HTML ou dans sa dernière version HTML5, est le langage de balisage conçu pour représenter les pages web. Ce langage permet : d’écrire de l’hypertexte, d’où son nom, de structurer sémantiquement la page, de mettre en forme le contenu, de créer des formulaires de saisie,",
+            "proportion": 95
         },
         {
             "type": "language",
             "name": "xml",
             "tags": ["language", "frontend"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/XML_icon.svg/langfr-128px-XML_icon.svg.png",
-            "proportion": "60",
-            "link": ""
+            "logo": "xml.png",
+            "describe": "L'Extensible Markup Language, généralement appelé XML, « langage de balisage extensible » en français, est un métalangage informatique de balisage générique qui est un sous-ensemble du Standard Generalized Markup Language.",
+            "proportion": 60
         },
         {
             "type": "language",
             "name": "bash",
             "tags": ["language", "server"],
-            "logo": "45",
-            "proportion": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/langfr-580px-Gnu-bash-logo.svg.png",
-            "link": ""
+            "logo": "bash.jpg",
+            "describe": "Bash est un langage et un programme informatique.",
+            "proportion": 45
         },
         {
             "type": "language",
             "name": "TypeScript",
             "tags": ["language", "frontend", "TypeScript"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a6/TypeScript_Logo.png",
-            "proportion": "75",
-            "link": ""
+            "logo": "typescript.png",
+            "describe": "TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript. Il s'agit d'un sur-ensemble syntaxique strict de JavaScript.",
+            "proportion": 75
         },
         {
             "type": "language",
             "name": "JavaScript",
             "tags": ["language", "frontend", "backend"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/262px-Unofficial_JavaScript_logo_2.svg.png",
-            "proportion": "80",
-            "link": ""
+            "logo": "js.png",
+            "describe": "JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web. Avec les technologies HTML et CSS, JavaScript est parfois considéré comme l'une des technologies cœur du World Wide Web.",
+            "proportion": 80
         },
         {
             "type": "language",
             "name": "PHP",
             "tags": ["language", "backend"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/262px-PHP-logo.svg.png",
-            "proportion": "90",
-            "link": ""
+            "logo": "php.png",
+            "describe": "PHP: Hypertext Preprocessor, plus connu sous son sigle PHP, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale.",
+            "proportion": 90
         },
         {
             "type": "framework",
             "name": "saas",
             "tags": ["language", "frontend", "style", "framework", "css"],
-            "logo": "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
-            "proportion": "90",
-            "link": ""
+            "logo": "sass.png",
+            "describe": "Sass est un langage dynamique de génération de feuilles de style en cascade. Sass est un préprocesseur CSS. C'est un langage de description compilé en CSS.",
+            "proportion": 90
         },
         {
             "type": "dependencies_manager",
             "name": "composer",
             "tags": ["backend", "framework", "php", "dependencies_manager"],
-            "logo": "https://getcomposer.org/img/logo-composer-transparent.png",
-            "proportion": "",
-            "link": ""
+            "logo": "composer.svg",
+            "describe": "Composer est un logiciel gestionnaire de dépendances libre écrit en PHP. Il permet à ses utilisateurs de déclarer et d'installer les bibliothèques dont le projet principal a besoin.",
+            "proportion": 60
         },
         {
             "type": "dependencies_manager",
             "name": "npm",
             "tags": ["backend", "framework", "NodeJS", "dependencies_manager"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/langfr-440px-Npm-logo.svg.png",
-            "proportion": "",
-            "link": ""
+            "logo": "npm.png",
+            "describe": "npm est le gestionnaire de paquets officiel de Node.js.",
+            "proportion": 80
         },
         {
             "type": "framework",
             "name": "symfony",
             "tags": ["backend", "framework", "php"],
-            "logo": "https://symfony.com/images/logos/header-logo.svg",
-            "proportion": "75",
-            "link": ""
+            "logo": "symfony.png",
+            "describe": "Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.",
+            "proportion": 75
         },
         {
             "type": "framework",
             "name": "flight",
             "tags": ["backend", "framework", "php"],
-            "logo": "90",
-            "proportion": "",
-            "link": ""
+            "logo": "flight.png",
+            "describe": "Flight est un micro framework php.",
+            "proportion": 90
         },
         {
             "type": "framework",
             "name": "laravel",
             "tags": ["backend", "framework", "php"],
-            "logo": "https://commons.wikimedia.org/w/index.php?title=File:Laravel.svg&lang=fr&uselang=fr",
-            "proportion": "",
-            "link": "75"
+            "logo": "laravel.jpg",
+            "describe": "Laravel est un framework web open-source écrit en PHP respectant le principe modèle-vue-contrôleur et entièrement développé en programmation orientée objet.",
+            "proportion": 75
         },
         {
             "type": "framework",
             "name": "zend",
             "tags": ["backend", "framework", "php"],
-            "logo": "https://framework.zend.com/",
-            "proportion": "50",
-            "link": ""
+            "logo": "zend.png",
+            "describe": "Zend Framework est un cadriciel pour PHP.",
+            "proportion": 50
         },
         {
             "type": "framework",
             "name": "slim",
             "tags": ["backend", "framework", "php"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "slim.png",
+            "describe": "Slim est un micro framework php.",
+            "proportion": 70
         },
         {
             "type": "framework",
             "name": "angular",
             "tags": ["frontend", "framework", "JavaScript", "TypeScript"],
-            "logo": "https://angular.io/assets/images/logos/angular/logo-nav@2x.png",
-            "proportion": "55",
-            "link": ""
+            "logo": "angular.png",
+            "describe": "Angular est un cadriciel côté client, open source, basé sur TypeScript.",
+            "proportion": 55
         },
         {
             "type": "framework",
             "name": "ExpressJS",
             "tags": ["backend", "framework", "JavaScript"],
-            "logo": "https://miro.medium.com/max/700/1*XP-mZOrIqX7OsFInN2ngRQ.png",
-            "proportion": "",
-            "link": ""
+            "logo": "express.png",
+            "describe": "Express.js est un framework pour construire des applications web basées sur Node.js. C'est de fait le framework standard pour le développement de serveur en Node.js.",
+            "proportion": 45
         },
         {
             "type": "framework",
             "name": "Ionic",
             "tags": ["frontend", "framework", "JavaScript", "TypeScript", "mobile"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/LogoIonic.png/320px-LogoIonic.png",
-            "proportion": "",
-            "link": ""
+            "logo": "ionic.png",
+            "describe": "Ionic est un framework open-source se basant sur Angular et TypeScript.",
+            "proportion": 60
         },
         {
             "type": "security",
             "name": "jwtToken",
             "tags": ["backend", "frontend", "JavaScript", "TypeScript", "mobile", "php", "go"],
-            "logo": "https://jwt.io/img/logo.svg",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "security",
-            "name": "oauth",
-            "tags": ["backend", "frontend", "JavaScript", "TypeScript", "mobile", "php", "go"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Oauth_logo.svg/320px-Oauth_logo.svg.png",
-            "proportion": "",
-            "link": ""
+            "logo": "jwt.jpg",
+            "describe": "JSON Web Token est un standard ouvert défini dans la RFC 7519. Il permet l'échange sécurisé de jetons entre plusieurs parties. Cette sécurité de l’échange se traduit par la vérification de l’intégrité des données à l’aide d’une signature numérique. Elle s’effectue par l'algorithme HMAC ou RSA.",
+            "proportion": 50
         },
         {
             "type": "tool",
             "name": "gulp",
             "tags": ["frontend", "JavaScript", "tool"],
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg",
-            "proportion": "",
-            "link": ""
+            "logo": "gulp.png",
+            "describe": "Gulp.js est un toolkit JavaScript open-source créé par Fractal Innovations, et la communauté open source sur GitHub, utilisé dans le développement web front-end.",
+            "proportion": 70
         },
         {
             "type": "tool",
             "name": "grunt",
             "tags": ["frontend", "JavaScript", "tool"],
-            "logo": "https://upload.wikimedia.org/wikipedia/fr/a/ab/Grunt-logo.pngs",
-            "proportion": "",
-            "link": ""
+            "logo": "grung.png",
+            "describe": "Grunt est un outil pour la création de tâches automatisées avec le langage JavaScript.",
+            "proportion": 80
         },
         {
             "type": "tool",
             "name": "babel",
             "tags": ["frontend", "JavaScript", "tool"],
-            "logo": "https://en.wikipedia.org/wiki/File:Babel_Logo.svg",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "tool",
-            "name": "gulp",
-            "tags": ["frontend", "JavaScript", "tool"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "tool",
-            "name": "gulp",
-            "tags": ["frontend", "JavaScript", "tool"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "babel.png",
+            "describe": "Babel est un transcompilateur JavaScript gratuit et open-source qui est principalement utilisé pour convertir le code ECMAScript 2015+ en une version rétrocompatible de JavaScript qui peut être exécutée par des moteurs JavaScript plus anciens.",
+            "proportion": 80
         },
         {
             "type": "library",
             "name": "jquery",
             "tags": ["frontend", "JavaScript", "library"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "jquery.png",
+            "describe": "jQuery est une bibliothèque JavaScript libre et multiplateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML des pages web.",
+            "proportion": 100
         },
         {
             "type": "library",
             "name": "amchart",
             "tags": ["frontend", "JavaScript", "library"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "amcharts.png",
+            "describe": "Librairie de génération de graphiques.",
+            "proportion": 80
         },
         {
             "type": "library",
             "name": "fullcalendar io",
             "tags": ["frontend", "JavaScript", "library"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "fullcalendar.png",
+            "describe": "Librairie de génération de calendrier.",
+            "proportion": 80
         },
         {
             "type": "library",
             "name": "jqueryUI",
             "tags": ["frontend", "JavaScript", "library"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "jqueryUi.jpg",
+            "describe": "jQuery UI est une collection de widgets, effets visuels et thèmes implémentés avec jQuery, des feuilles de style en cascade, et du HTML.",
+            "proportion": 80
         },
         {
             "type": "framework",
-            "name": "vujs",
+            "name": "vuejs",
             "tags": ["frontend", "JavaScript", "framework", "templating"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "templating",
-            "name": "handlebarsJs",
-            "tags": ["frontend", "templating", "css"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "framework",
-            "name": "vujs",
-            "tags": ["frontend", "css", "templating"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "templating",
-            "name": "vujs",
-            "tags": ["frontend", "css", "framework", "templating"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "templating",
-            "name": "vujs",
-            "tags": ["frontend", "JavaScript", "framework", "templating"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "vujs.png",
+            "describe": "Vue.js, est un framework JavaScript open-source utilisé pour construire des interfaces utilisateur et des applications web monopages.",
+            "proportion": 70
         },
         {
             "type": "templating",
             "name": "bootstrap",
             "tags": ["style", "frontend", "templating", "css"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "templating",
-            "name": "bulma",
-            "tags": ["style", "frontend", "templating", "framework", "css"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "bootstrap.png",
+            "describe": "Bootstrap est une collection d'outils utiles à la création du design de sites et d'applications web.",
+            "proportion": 90
         },
         {
             "type": "templating",
             "name": "material",
             "tags": ["style", "frontend", "templating", "framework", "css"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "materialDesign.png",
+            "describe": "Material Design est un ensemble de règles de design proposées par Google et qui s'appliquent à l'interface graphique des logiciels et applications.",
+            "proportion": 70
         },
         {
             "type": "database",
             "name": "mysql",
             "tags": ["sql", "database"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "mysql.png",
+            "describe": "MySQL est un système de gestion de bases de données relationnelles.",
+            "proportion": 90
         },
         {
             "type": "database",
             "name": "oracle",
             "tags": ["sql", "database"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "oracle.png",
+            "describe": "Oracle Database est un système de gestion de base de données relationnelle qui depuis l'introduction du support du modèle objet dans sa version 8 peut être aussi qualifié de système de gestion de base de données relationnel-objet.",
+            "proportion": 80
         },
         {
             "type": "database",
             "name": "postgesql",
             "tags": ["sql", "database"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "postgresql.png",
+            "describe": "PostgreSQL est un système de gestion de base de données relationnelle et objet.",
+            "proportion": 70
         },
         {
             "type": "tool",
             "name": "postman",
             "tags": ["tool", "request", "http", "xml"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "postman.png",
+            "describe": "Postman est une application permettant le test de web service dans une architecture orientée services.",
+            "proportion": 90
         },
         {
-            "type": "database",
+            "type": "tool",
             "name": "soap ui",
             "tags": ["tool", "request", "http", "xml"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "soapui.jpg",
+            "describe": "SoapUI est une application open source permettant le test de web service dans une architecture orientée services.",
+            "proportion": 70
         },
         {
             "type": "uml",
             "name": "uml",
             "tags": ["uml", "tool"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "uml",
-            "name": "staruml",
-            "tags": ["uml", "tool", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "uml",
-            "name": "drow.io",
-            "tags": ["uml", "tool", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "uml.jpg",
+            "describe": "Le Langage de Modélisation Unifié, de l'anglais Unified Modeling Language, est un langage de modélisation graphique à base de pictogrammes conçu comme une méthode normalisée de visualisation dans les domaines du développement logiciel et en conception orientée objet.",
+            "proportion": 90
         },
         {
             "type": "",
             "name": "merise",
             "tags": ["uml", "tool"],
             "logo": "",
-            "proportion": "",
-            "link": ""
+            "describe": "Merise est une méthode d'analyse, de conception et de gestion de projet informatique.",
+            "proportion": 70
         },
         {
             "type": "kanban",
             "name": "trello",
             "tags": ["kanban", "tool", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "trello.png",
+            "describe": "Trello est un outil de gestion de projet en ligne, inspiré par la méthode Kanban de Toyota. Il repose sur une organisation des projets en planches listant des cartes, chacune représentant des tâches.",
+            "proportion": 60
         },
         {
             "type": "kanban",
             "name": "Taïga",
             "tags": ["kanban", "tool", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "taiga.jpg",
+            "describe": "Taiga est un système de gestion de projet gratuit et open-source pour les startups, les développeurs agiles et les concepteurs.",
+            "proportion": 90
         },
         {
             "type": "kanban",
             "name": "Tuleap",
             "tags": ["kanban", "tool", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "tuleap.png",
+            "describe": "Tuleap est une solution de gestion du cycle de vies des applications d'Entreprise Open Source et Agile.",
+            "proportion": 90
         },
         {
             "type": "editor",
             "name": "Visual Studio Code",
             "tags": ["editor", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "editor",
-            "name": "Sublime Text",
-            "tags": ["editor", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "visualstudiocode.png",
+            "describe": "Visual Studio Code est un éditeur de code extensible.",
+            "proportion": 90
         },
         {
             "type": "editor",
             "name": "Atom",
             "tags": ["editor", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "atom.png",
+            "describe": "Atom est un éditeur de texte libre développé par GitHub",
+            "proportion": 70
         },
         {
             "type": "editor",
             "name": "PHPStorm",
             "tags": ["php", "editor", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "phpstorm.png",
+            "describe": "PhpStorm est un éditeur pour PHP, HTML, CSS et JavaScript.",
+            "proportion": 80
         },
         {
             "type": "graphisme",
             "name": "illustrator",
             "tags": ["graphism", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "illustrator.png",
+            "describe": "Adobe Illustrator est un logiciel de création graphique vectorielle.",
+            "proportion": 40
+        },
+        {
+            "type": "graphisme",
+            "name": "gimp",
+            "tags": ["graphism", "software"],
+            "logo": "gimp.jpg",
+            "describe": "Gimp est un outil d'édition et de retouche d'image",
+            "proportion": 55
         },
         {
             "type": "graphisme",
             "name": "photoshop",
             "tags": ["graphisme", "software"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "photoshop.png",
+            "describe": "Photoshop est un logiciel de retouche, de traitement et de dessin assisté par ordinateur.",
+            "proportion": 60
         },
         {
             "type": "api",
             "name": "objenious",
             "tags": ["api", "iot"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "objenious.jpg",
+            "describe": "Marque de Bouygues Telecom dédié à l'Internet des Objets LoRaWan.",
+            "proportion": 80
         },
         {
             "type": "api",
-            "name": "orange",
+            "name": "Orange Live Object",
             "tags": ["api", "iot"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "orange.png",
+            "describe": "Orange Live Object est un opérateur de télécommunications LoRaWAN.",
+            "proportion": 80
         },
         {
             "type": "api",
             "name": "sinox",
             "tags": ["api", "iot"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "sinox.png",
+            "describe": "Intégrateur et éditeur de plateformes IoT, Synox facilite et accélère le déploiement de l'Internet des objets et des projets d'objets connectés.",
+            "proportion": 40
         },
         {
             "type": "api",
             "name": "sigfox",
             "tags": ["api", "iot"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "sigfox.jpg",
+            "describe": "Sigfox est un opérateur de télécommunications français.",
+            "proportion": 30
+        },
+        {
+            "type": "api",
+            "name": "the thinks network",
+            "tags": ["api", "iot"],
+            "logo": "ttn.png",
+            "describe": "The Things Network est une communauté mondiale qui construit un réseau LoRaWAN open source et décentralisé.",
+            "proportion": 60
+        },
+        {
+            "type": "api",
+            "name": "redexia",
+            "tags": ["api", "iot"],
+            "logo": "redexia.png",
+            "describe": "Redexia est un opérateur espagnol pour objets connecté LoRa.",
+            "proportion": 80
         },
         {
             "type": "api",
             "name": "googleMap",
             "tags": ["api"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "maps.png",
+            "describe": "Google Maps est un service de cartographie en ligne.",
+            "proportion": 90
+        },
+        {
+            "type": "a revoir",
+            "name": "talq",
+            "tags": ["api"],
+            "logo": "talq.png",
+            "describe": "Le Consortium TALQ a pour objectif de définir un protocole de ville intelligente mondialement accepté pour les logiciels de gestion centralisée afin de configurer, contrôler, commander et surveiller des réseaux d'appareils de ville intelligente hétérogènes.",
+            "proportion": 40
         },
         {
             "type": "api",
             "name": "weatherUnderground",
             "tags": ["api"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "weatherunderground.png",
+            "describe": "Weather Underground est un site web et un web service d'informations météorologiques.",
+            "proportion": 90
         },
         {
             "type": "api",
             "name": "stripe",
             "tags": ["api"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "api",
-            "name": "workday",
-            "tags": ["api"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "api",
-            "name": "hraccess",
-            "tags": ["api"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "stripe.png",
+            "describe": "Stripe est une application de traitement des paiements en ligne pour les entreprises.",
+            "proportion": 80
         },
         {
             "type": "sourceManager",
             "name": "git",
             "tags": ["sourceManager"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "logo": "git.jpg",
+            "describe": "Git est un logiciel de gestion de versions décentralisé.",
+            "proportion": 90 
         },
         {
             "type": "sourceManager",
             "name": "github",
             "tags": ["sourceManager"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "describe": "GitHub est un logiciel libre de forge basé sur git.",
+            "logo": "github.png",
+            "proportion": 90
         },
         {
             "type": "sourceManager",
             "name": "gitlab",
             "tags": ["sourceManager"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
-        },
-        {
-            "type": "sourceManager",
-            "name": "bitbucket",
-            "tags": ["sourceManager"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "describe": "GitLab est un logiciel libre de forge basé sur git proposant les fonctionnalités de wiki, un système de suivi des bugs, l’intégration continue et la livraison continue.",
+            "logo": "gitlab.png",
+            "proportion": 80
         },
         {
             "type": "utility",
             "name": "putty",
-            "tags": ["sourceManager"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "tags": ["console"],
+            "describe": "Putty est un emulateur de terminal doublé d'un client pour les protocoles SSH, Telnet, rlogin, et TCP brut. Il permet également des connexions directes par liaison série RS-232.",
+            "logo": "putty",
+            "proportion": 70 
         },
         {
             "type": "utility",
             "name": "winscp",
             "tags": ["sourceManager"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "describe": "WinSCP est un client SFTP graphique pour Windows",
+            "logo": "winscp",
+            "proportion": 80
         },
         {
             "type": "utility",
             "name": "filezilla",
             "tags": ["sourceManager"],
-            "logo": "",
-            "proportion": "",
-            "link": ""
+            "describe": "FileZilla est un client FTP, FTPS et SFTP",
+            "logo": "filezilla.png",
+            "proportion": 70
         }
     ]
 }

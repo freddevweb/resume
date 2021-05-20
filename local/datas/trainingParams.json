@@ -1,3 +1,7 @@
 {
-    "types": ["developpeur", "distribution", "informatique"]
+    "types": {
+        "developpeur": "Développement", 
+        "distribution": "Distribution", 
+        "informatique": "Distribution"
+    }
 }
